@@ -36,7 +36,7 @@ RDWebView *webView = [[RDWebView alloc] initWithFrame:CGRectMake(0, 0, self.view
 @property (nonatomic, strong) NSMutableArray *urlsArray; //记录了一次url进来以后，从开始加载到重定向完成以后的所有跳转url
 
 
-//加载URL
+//加载URL，本类就这一个加载方法，随时可以使用这个方法加载url
 - (void)loadURL:(NSString *)url; 
 
 //监听当前最新的title和url
