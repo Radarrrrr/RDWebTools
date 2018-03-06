@@ -13,6 +13,7 @@
 		0C8E5057204E7AC4006F99EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8E5056204E7AC4006F99EB /* Assets.xcassets */; };
 		0C8E505A204E7AC4006F99EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8E5058204E7AC4006F99EB /* LaunchScreen.storyboard */; };
 		0C8E505D204E7AC4006F99EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E505C204E7AC4006F99EB /* main.m */; };
+		0C8E5066204E7CE2006F99EB /* RDWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E5065204E7CE2006F99EB /* RDWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0C8E5059204E7AC4006F99EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C8E505B204E7AC4006F99EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C8E505C204E7AC4006F99EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C8E5064204E7CE2006F99EB /* RDWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDWebView.h; sourceTree = "<group>"; };
+		0C8E5065204E7CE2006F99EB /* RDWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 		0C8E5063204E7BEE006F99EB /* RDWebTools */ = {
 			isa = PBXGroup;
 			children = (
+				0C8E5064204E7CE2006F99EB /* RDWebView.h */,
+				0C8E5065204E7CE2006F99EB /* RDWebView.m */,
 			);
 			path = RDWebTools;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C8E5052204E7AC4006F99EB /* ViewController.m in Sources */,
+				0C8E5066204E7CE2006F99EB /* RDWebView.m in Sources */,
 				0C8E505D204E7AC4006F99EB /* main.m in Sources */,
 				0C8E504F204E7AC4006F99EB /* AppDelegate.m in Sources */,
 			);
