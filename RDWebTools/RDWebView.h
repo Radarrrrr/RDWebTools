@@ -39,6 +39,8 @@ RDWebView *webView = [[RDWebView alloc] initWithFrame:CGRectMake(0, 0, self.view
 //加载URL，本类就这一个加载方法，随时可以使用这个方法加载url
 - (void)loadURL:(NSString *)url; 
 
+//- (void)changeFrame:(CGRect)frame;
+
 //监听当前最新的title和url
 - (void)observeWebView:(void(^)(NSString *title))currentTitle currentUrl:(void(^)(NSString *url))currentUrl; 
 

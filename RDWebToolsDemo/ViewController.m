@@ -50,6 +50,7 @@
     //DEMO2: 使用RDWebViewController显示url
     RDWebViewController *webVC = [[RDWebViewController alloc] init];
     webVC.url = @"https://www.jianshu.com/p/180ee76f4250";
+    webVC.showGoback = YES;
     [self.navigationController pushViewController:webVC animated:YES];
 }
 
