@@ -57,7 +57,15 @@
     
     if(_webView)
     {
+        //修正web的frame
         _webView.frame = CGRectMake(0, 0, frame.size.width, frame.size.height);
+        
+        //修正返回按钮的frame
+        UIButton *backBtn = [self viewWithTag:10086];
+        if(backBtn)
+        {
+            backBtn.frame = CGRectMake(0, frame.size.height-40, 40, 40);
+        }
     }
 }
 
@@ -79,6 +87,7 @@
         //放在左下角
         UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeSystem];
         backBtn.frame = CGRectMake(0, self.frame.size.height-40, 40, 40);
+        backBtn.tag = 10086;
         [backBtn setImage:[UIImage imageNamed:@"icon_rdweb_goback.png"] forState:UIControlStateNormal];
         [backBtn addTarget:self action:@selector(goBackAction:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:backBtn];
