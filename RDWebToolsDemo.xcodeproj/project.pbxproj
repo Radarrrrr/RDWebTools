@@ -16,6 +16,7 @@
 		0C8E5066204E7CE2006F99EB /* RDWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E5065204E7CE2006F99EB /* RDWebView.m */; };
 		0C8E5068204E7DBF006F99EB /* icon_rdweb_goback.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C8E5067204E7DBF006F99EB /* icon_rdweb_goback.png */; };
 		0C8E506B204E9C4A006F99EB /* RDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E506A204E9C4A006F99EB /* RDWebViewController.m */; };
+		0C8E5073204F922C006F99EB /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8E5072204F922C006F99EB /* iconfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		0C8E5067204E7DBF006F99EB /* icon_rdweb_goback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_rdweb_goback.png; sourceTree = "<group>"; };
 		0C8E5069204E9C4A006F99EB /* RDWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDWebViewController.h; sourceTree = "<group>"; };
 		0C8E506A204E9C4A006F99EB /* RDWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDWebViewController.m; sourceTree = "<group>"; };
+		0C8E5072204F922C006F99EB /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		0C8E5063204E7BEE006F99EB /* RDWebTools */ = {
 			isa = PBXGroup;
 			children = (
+				0C8E5072204F922C006F99EB /* iconfont.ttf */,
 				0C8E5067204E7DBF006F99EB /* icon_rdweb_goback.png */,
 				0C8E5064204E7CE2006F99EB /* RDWebView.h */,
 				0C8E5065204E7CE2006F99EB /* RDWebView.m */,
@@ -153,6 +156,7 @@
 				0C8E505A204E7AC4006F99EB /* LaunchScreen.storyboard in Resources */,
 				0C8E5057204E7AC4006F99EB /* Assets.xcassets in Resources */,
 				0C8E5068204E7DBF006F99EB /* icon_rdweb_goback.png in Resources */,
+				0C8E5073204F922C006F99EB /* iconfont.ttf in Resources */,
 				0C8E5055204E7AC4006F99EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
