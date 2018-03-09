@@ -15,7 +15,7 @@ v1.0 创建pods库
 
 必须要在 info.plist 里边添加如下ATS设定，以便可以支持http请求：
 
-//<App Transport Security Settings> -> <Allow Arbitrary Loads> 设定为 YES
+App Transport Security Settings  -> Allow Arbitrary Loads 设定为 YES
 
 
 
